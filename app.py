@@ -22,7 +22,7 @@ SCOPES = ["https://graph.microsoft.com/.default"]
 
 # Пример: загрузка в OneDrive конкретного пользователя (UPN)
 # (Пусть это будет ваш UPN; убедитесь, что OneDrive активирована)
-USER_UPN = "adminr@shefergroup.onmicrosoft.com"
+USER_UPN = "admin@shefergroup.onmicrosoft.com"
 
 # Ссылка для загрузки в папку WhatsAppFiles в корне OneDrive
 file_name_onedrive = "some_unique_name.xlsx"
