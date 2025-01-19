@@ -9,7 +9,7 @@ import msal
 # Константы для Twilio (Вынести в Env Vars)
 # -----------------------------------------
 TWILIO_ACCOUNT_SID = "ACbe089f13a1eada6857d74d24c7e41e87"
-TWILIO_AUTH_TOKEN = "6efb8c86bb4eb0e18c216c68800a4309"
+TWILIO_AUTH_TOKEN = "0373e28512a6b4a1302bd2d176727ab6"
 
 # -----------------------------------------
 # Константы для Microsoft Graph (Вынести в Env Vars)
