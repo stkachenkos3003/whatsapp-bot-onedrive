@@ -12,7 +12,7 @@ app = Flask(__name__)
 # Константы для Twilio (Вынести в Env Vars)
 # -----------------------------------------
 TWILIO_ACCOUNT_SID = "ACbe089f13a1eada6857d74d24c7e41e87"
-TWILIO_AUTH_TOKEN = "0373e28512a6b4a1302bd2d176727ab6"
+TWILIO_AUTH_TOKEN = "179ed89bc958f8354cb5d23358c682cd"
 
 # -----------------------------------------
 # Константы для Microsoft Graph (Вынести в Env Vars)
