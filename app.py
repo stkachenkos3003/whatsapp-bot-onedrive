@@ -71,10 +71,12 @@ def upload_to_onedrive(local_file_path):
     with open(local_file_path, "rb") as f:
         resp = requests.put(UPLOAD_URL, headers=headers, data=f)
 
-    if resp.status_code == 201:
-        print("Файл успешно загружен в OneDrive!")
+    if resp.status_code in [200, 201]:
+        print("Файл успешно загружен (новый или обновлён)!")
     else:
-        raise Exception(f"Ошибка загрузки: {resp.status_code}, {resp.text}")
+        print(f"Ошибка загрузки: {resp.status_code}, {resp.text}")
+        raise Exception("Ошибка при загрузке.")
+
 
 
 @app.route("/webhook", methods=["POST"])
